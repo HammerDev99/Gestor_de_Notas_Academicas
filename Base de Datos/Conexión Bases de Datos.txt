@@ -1,0 +1,17 @@
+Conexión a Base de Datos
+
+
+Requerimientos para Conectar una Base de Datos:
+-Puerto 1433.
+-ODBC "Poco Recomendado"
+-API.
+-Protocolos.
+-Configurar el SQL Server Browser para que esté vigilando la conexión que se está haciendo.
+-Para ingresar a la base de datos se requiere de: Nombre del Equipo, Password.
+-Driver de Netbeans "SQLJDBC"
+
+
+Pasos:
+1. Configurar el Servidor SQL Server Express "Protocolo TCP/IP" - Se Configura con SQL Server Configuration Manger.
+2. Habilitar la autenticación por conexión remota - Se utiliza el programa SQL Server Management Studio.
+3. Establecer conexión de base de datos SQL Server mediante NetBeans a través de JDBC.
